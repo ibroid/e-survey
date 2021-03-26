@@ -1,0 +1,156 @@
+<style>
+  button {
+    margin-top: 20px;
+  }
+</style>
+<div class="main-panel">
+  <div class="content-wrapper">
+    <div class="col-md-12">
+      <div class="card text-center">
+        <div class="card-header">
+          <h2>SELAMAT DATANG DI SURVEY KEPUASAN MASYARAKAT</h2>
+        </div>
+        <div class="card-body" id="mini-page">
+          <div class="card text-center">
+            <div class="card-body">
+              <h4><%= pertanyaan %></h4><br>
+              <div class="row">
+                <% answers.forEach(function(answer){ %>
+                  <div class="col-sm-6">
+                    <button type="button" data-nilai="<%= answer.nilai %>" class="btn btn-outline-<%- valueColor(answer.nilai) %> btn-fw btn-lg btn-block"><%= answer.jawaban %></button>
+                  </div>
+                <% }); %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%- include('templates/footer') %>
+</div>
+<script src="/sweetalert2.js"></script>
+<script>
+  function findEl(params) {
+    return document.getElementById(params)
+  }
+
+  function miniPatch(params, callback) {
+    findEl('mini-page').innerHTML = params
+    callback()
+  }
+
+  if ("<%= isResponden %>" == "") {
+    Swal.fire({
+    title: "Apa Anda Ingin Memasukan Data Diri Anda ?",
+    icon: "question",
+    showCancelButton: true,
+    confirmButtonText: "Ya!",
+    showLoaderOnConfirm: true,
+    preConfirm: async () => {
+      return await fetch('components/data_diri').then(res => res.text())
+    }
+  }).then(async (result) => {
+      if (result.isConfirmed) { miniPatch(result.value, () => {
+        saveDataDiri()
+        $('#form-data-diri').parsley({
+          maxlength : 30
+        })
+      }) 
+    } else {
+        const ress = await fetch('/anonymous', {
+          method : "POST",
+          headers: {
+            "Accept" : "application/json",
+            "Content-Type" : "application/json",
+            "CSRF-Token" : document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+          },
+          body: JSON.stringify({
+            nama : "anonymous",
+            jenis_kelamin : "anonymous",
+            asal : "anonymous",
+            umur : 00,
+          })
+        }).then(res => res.json())
+          console.log(ress) 
+      } 
+    })
+  }
+  function saveDataDiri() {
+    findEl('form-data-diri').addEventListener('submit', function (e) {
+      e.preventDefault()
+      Swal.fire({
+        title: "Apa Anda Yakin ?",
+        icon: "question",
+        showCancelButton: true,
+        confirmButtonText: "Ya!",
+        showLoaderOnConfirm: true,
+        preConfirm: async () => {
+          return await fetch('/save_data_diri', {
+            credentials: "same-origin",
+            headers: {
+              'Accept' : 'application/json',
+              'Content-Type' : 'application/json',
+              'CSRF-Token' : document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+            },
+            method: "POST",
+            body: JSON.stringify({
+              nama : findEl('nama').value,
+              umur : findEl('umur').value,
+              jenis_kelamin : findEl('jenis_kelamin').value,
+              asal: findEl('asal').value
+            })
+          }).then(res => res.json())
+        }
+      }).then((result) => {
+        if (result.isConfirmed)
+        Swal.fire(result.value).then(() => {
+          location.reload()
+        })
+      })
+    })
+  }
+  const buttons = document.querySelectorAll('button.btn')
+  for (button of buttons) {
+    button.addEventListener('click', function () {
+      this.classList.add('btn-' + this.classList['1'].replace('btn-outline-', ''))
+      this.classList.remove(this.classList[1])
+      respon(this, (page) => {
+        miniPatch(page, () => {})
+      })
+    })
+  }
+  function respon(params, callback) {
+    Swal.fire({
+      title: "Apa Anda Yakin Dengan Pilihan Anda ?",
+      icon: "question",
+      showCancelButton: true,
+      confirmButtonText: "Yakin",
+      showLoaderOnConfirm: true,
+      preConfirm: async () => {
+        return await fetch('/save_respon_esikat', {
+          method: "POST",
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'CSRF-Token' : document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+          },
+          body: JSON.stringify({
+            key: params.textContent,
+            value: params.dataset.nilai,
+            number: "<%= number %>"
+          })
+        }).then(res => res.text())
+      }
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire(JSON.parse(result.value)).then(() => {
+          location.reload()
+        })
+      } 
+    })
+  }
+</script>
+</body>
+
+</html>

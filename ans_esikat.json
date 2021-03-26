@@ -1,0 +1,182 @@
+[
+  {
+    "nomor" : 1,
+    "nilai" : 1,
+    "jawaban" : "Tidak Sesuai"
+  },
+  {
+    "nomor" : 1,
+    "nilai" : 2,
+    "jawaban" : "Kurang Sesuai"
+  },
+  {
+    "nomor" : 1,
+    "nilai" : 3,
+    "jawaban" : "Sesuai"
+  },
+  {
+    "nomor" : 1,
+    "nilai" : 4,
+    "jawaban" : "Sangat Sesuai"
+  },
+  {
+    "nomor" : 2,
+    "nilai" : 1,
+    "jawaban" : "Tidak Mudah"
+  },
+  {
+    "nomor" : 2,
+    "nilai" : 2,
+    "jawaban" : "Kurang Mudah"
+  },
+  {
+    "nomor" : 2,
+    "nilai" : 3,
+    "jawaban" : "Mudah"
+  },
+  {
+    "nomor" : 2,
+    "nilai" : 4,
+    "jawaban" : "Sangat Mudah"
+  },
+  {
+    "nomor" : 3,
+    "nilai" : 1,
+    "jawaban" : "Tidak Cepat"
+  },
+  {
+    "nomor" : 3,
+    "nilai" : 2,
+    "jawaban" : "Kurang Cepat"
+  },
+  {
+    "nomor" : 3,
+    "nilai" : 3,
+    "jawaban" : "Cepat"
+  },
+  {
+    "nomor" : 3,
+    "nilai" : 4,
+    "jawaban" : "Sangat Cepat"
+  },
+  {
+    "nomor" : 4,
+    "nilai" : 1,
+    "jawaban" : "Sangat Mahal"
+  },
+  {
+    "nomor" : 4,
+    "nilai" : 2,
+    "jawaban" : "Cukup Mahal"
+  },
+  {
+    "nomor" : 4,
+    "nilai" : 3,
+    "jawaban" : "Murah"
+  },
+  {
+    "nomor" : 4,
+    "nilai" : 4,
+    "jawaban" : "Gratis"
+  },
+  {
+    "nomor" : 5,
+    "nilai" : 1,
+    "jawaban" : "Tidak Ada"
+  },
+  {
+    "nomor" : 5,
+    "nilai" : 2,
+    "jawaban" : "Terkadang Ada"
+  },
+  {
+    "nomor" : 5,
+    "nilai" : 3,
+    "jawaban" : "Sering Ada"
+  },
+  {
+    "nomor" : 5,
+    "nilai" : 4,
+    "jawaban" : "Selalu Ada"
+  },
+  {
+    "nomor" : 6,
+    "nilai" : 1,
+    "jawaban" : "Tidak Kompeten"
+  },
+  {
+    "nomor" : 6,
+    "nilai" : 2,
+    "jawaban" : "Kurang Kompeen"
+  },
+  {
+    "nomor" : 6,
+    "nilai" : 3,
+    "jawaban" : "Kompeten"
+  },
+  {
+    "nomor" : 6,
+    "nilai" : 4,
+    "jawaban" : "Sangat Kompeten"
+  },
+  {
+    "nomor" : 7,
+    "nilai" : 1,
+    "jawaban" : "Tidak Sopan Maupun Ramah"
+  },
+  {
+    "nomor" : 7,
+    "nilai" : 2,
+    "jawaban" : "Kurang Sopan Maupun Ramah"
+  },
+  {
+    "nomor" : 7,
+    "nilai" : 3,
+    "jawaban" : "Sopan dan Ramah"
+  },
+  {
+    "nomor" : 7,
+    "nilai" : 4,
+    "jawaban" : "Sangat Sopan dan Ramah"
+  },
+  {
+    "nomor" : 8,
+    "nilai" : 1,
+    "jawaban" : "Buruk"
+  },
+  {
+    "nomor" : 8,
+    "nilai" : 2,
+    "jawaban" : "Cukup"
+  },
+  {
+    "nomor" : 8,
+    "nilai" : 3,
+    "jawaban" : "Baik"
+  },
+  {
+    "nomor" : 8,
+    "nilai" : 4,
+    "jawaban" : "Sangat Baik"
+  },
+  {
+    "nomor" : 9,
+    "nilai" : 1,
+    "jawaban" : "Tidak Ada"
+  },
+  {
+    "nomor" : 9,
+    "nilai" : 2,
+    "jawaban" : "Ada Tapi tidak Berfungsi"
+  },
+  {
+    "nomor" : 9,
+    "nilai" : 3,
+    "jawaban" : "Berfungsi Kurang Maksimal"
+  },
+  {
+    "nomor" : 9,
+    "nilai" : 4,
+    "jawaban" : "Dikelola Dengan Baik"
+  }
+]

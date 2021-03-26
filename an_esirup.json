@@ -1,0 +1,202 @@
+[
+  {
+    "nomor" : 1,
+    "nilai" : 4,
+    "jawaban" : "Selalu Sesuai Prosedur"
+  },
+  {
+    "nomor" : 1,
+    "nilai" : 3,
+    "jawaban" : "Sering Sesuai Prosedur"
+  },
+  {
+    "nomor" : 1,
+    "nilai" : 2,
+    "jawaban" : "Jarang Sesuai Prosedur"
+  },
+  {
+    "nomor" : 1,
+    "nilai" : 1,
+    "jawaban" : "Tidak Pernah Sesuai Prosedur"
+  },
+  {
+    "nomor" : 2,
+    "nilai" : 4,
+    "jawaban" : "Melayani Tanpa Meminta Imbalan"
+  },
+  {
+    "nomor" : 2,
+    "nilai" : 3,
+    "jawaban" : "Melayani Jarang Meminta Imbalan"
+  },
+  {
+    "nomor" : 2,
+    "nilai" : 2,
+    "jawaban" : "Melayani Sering Meminta Imbalan" 
+  },
+  {
+    "nomor" : 2,
+    "nilai" : 1,
+    "jawaban" : "Melayani Selalu Meminta Imbalan"
+  },
+  {
+    "nomor" : 3,
+    "nilai" : 4,
+    "jawaban" : "Tidak Pernah"
+  },
+  {
+    "nomor" : 3,
+    "nilai" : 3,
+    "jawaban" : "Jarang atau Pernah Sekali"
+  },
+  {
+    "nomor" : 3,
+    "nilai" : 2,
+    "jawaban" : "Sering"
+  },
+  {
+    "nomor" : 3,
+    "nilai" : 1,
+    "jawaban" : "Selalu"
+  },
+  {
+    "nomor" : 4,
+    "nilai" : 4,
+    "jawaban" : "Selalu Mudah"
+  },
+  {
+    "nomor" : 4,
+    "nilai" : 3,
+    "jawaban" : "Sering Sih!"
+  },
+  {
+    "nomor" : 4,
+    "nilai" : 2,
+    "jawaban" : "Jarang Dapet Info"
+  },
+  {
+    "nomor" : 4,
+    "nilai" : 1,
+    "jawaban" : "Tidak Pernah Mendapat Info"
+  },
+  {
+    "nomor" : 5,
+    "nilai" : 4,
+    "jawaban" : "Selalu Bayar Sesuai tarif"
+  },
+  {
+    "nomor" : 5,
+    "nilai" : 3,
+    "jawaban" : "Sering Bayar Sesuai Tarif"
+  },
+  {
+    "nomor" : 5,
+    "nilai" : 2,
+    "jawaban" : "Kadang Bayar Sesuai tarif"
+  },
+  {
+    "nomor" : 5,
+    "nilai" : 1,
+    "jawaban": "Tidak Pernah Bayar Sesuai Tarif"
+  },
+  {
+    "nomor" : 6,
+    "nilai" : 1,
+    "jawaban" : "Selalu Memberi"
+  },
+  {
+    "nomor" : 6,
+    "nilai" : 2,
+    "jawaban" : "Sering Memberi"
+  },
+  {
+    "nomor" : 6,
+    "nilai" : 3,
+    "jawaban" : "Jarang Memberi"
+  },
+  {
+    "nomor" : 6,
+    "nilai" : 4,
+    "jawaban" : "Tidak Pernah Memberi"
+  },
+  {
+    "nomor" : 7,
+    "nilai" : 4,
+    "jawaban" : "Selalu Menerima"
+  },
+  {
+    "nomor" : 7,
+    "nilai": 3,
+    "jawaban": "Sering Menerima"
+  },
+  {
+    "nomor" : 7,
+    "nilai" : 2,
+    "jawaban" : "Jarang Menerima"
+  },
+  {
+    "nomor" : 7,
+    "nilai" : 1,
+    "jawaban" : "Tidak Pernah Menerima"
+  },
+  {
+    "nomor" : 8,
+    "nilai" : 4,
+    "jawaban" : "Tidak Pernah Tau"
+  },
+  {
+    "nomor" : 8,
+    "nilai" : 3,
+    "jawaban" : "Pernah Tau"
+  },
+  {
+    "nomor" : 8,
+    "nilai" : 2,
+    "jawaban": "Sering Tau"
+  },
+  {
+    "nomor" : 8,
+    "nilai" : 1,
+    "jawaban" : "Selalu Tau"
+  },
+  {
+    "nomor" : 9,
+    "nilai" : 4,
+    "jawaban" : "Tidak Pernah"
+  },
+  {
+    "nomor" : 9,
+    "nilai" : 3,
+    "jawaban" : "Pernah"
+  },
+  {
+    "nomor" : 9,
+    "nilai" : 2,
+    "jawaban" : "Sering"
+  },
+  {
+    "nomor" : 9,
+    "nilai" : 1,
+    "jawaban" : "Selalu"
+  },
+  {
+    "nomor" : 10,
+    "nilai" : 4,
+    "jawaban" : "Tidak Pernah" 
+  },
+  {
+    "nomor" : 10,
+    "nilai" : 3,
+    "jawaban" : "Pernah"
+  },
+  {
+    "nomor" : 10,
+    "nilai" : 2,
+    "jawaban" : "Sering"
+  },
+  {
+    "nomor" : 10,
+    "nilai" : 1,
+    "jawaban" : "Selalu"
+  }
+]

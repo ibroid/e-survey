@@ -1,0 +1,24 @@
+<div class="main-panel">
+  <div class="content-wrapper">
+    <div class="col-md-12">
+      <div class="card text-center">
+        <div class="card-header">
+          <h2>SELAMAT DATANG DI SURVEY KEPUASAN MASYARAKAT</h2>
+        </div>
+        <div class="card-body" id="mini-page">
+          <div class="card text-center">
+            <div class="card-body">
+              <h4>Silahkan Anda Boleh Memasukan Kritik & Saran</h4>
+              <form method="POST" action="<%= action %>">
+                <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                <textarea name="saran" class="form-control" cols="30" rows="10"></textarea>
+                <button class="btn btn-lg btn-success">Kirim</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%- include('templates/footer') %>
+</div>

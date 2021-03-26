@@ -1,0 +1,43 @@
+[
+  {
+    "nomor" : 1,
+    "pertanyaan" : "Apakah pelayanan oleh petugas sesuai prosedur dan ketentuan dan tidak dipersulit untuk maksud tertentu?"
+  },
+  {
+    "nomor" : 2,
+    "pertanyaan" : "Apakah dalam memperoleh layanan pengadilan secara cepat dan mudah selalu diberikan tanpa ada penawaran dari petugas untuk meminta imbalan tertentu? "
+  },
+  {
+    "nomor" : 3,
+    "pertanyaan" : "Pernahkah dihubungi oleh seseorang (karyawan pengadilan) yang akan membantu dalam pengurusan surat/ berkas perkara? "
+  },
+  {
+    "nomor" : 4,
+    "pertanyaan" : "Apakah selalu mudah dalam menda-patkan informasi tentang tarif/biaya baik melalui website ataupun petugas layanan? "
+  },
+  {
+    "nomor" : 5,
+    "pertanyaan" : "Apakah selalu membayar sesuai tarif resmi tanpa ada biaya tambahan?"
+  },
+  {
+    "nomor" : 6,
+    "pertanyaan" : "Memberikan tanda terima kasih atas layanan yang diterima (meskipun tidak diminta) ? "
+  },
+  {
+    "nomor" : 7,
+    "pertanyaan" : "Menerima bukti transaksi keuangan/ pembayaran yang sah setelah proses pembayaran dilakukan?"
+  },
+  {
+    "nomor" : 8,
+    "pertanyaan" : "Pernah mengetahui ada praktek percaloan dalam pengurusan layanan di pengadilan?"
+  },
+  {
+    "nomor" : 9,
+    "pertanyaan" : "Pernah melihat dan/atau mendengar masih terjadi praktek KKN di pengadilan?"
+  },
+  {
+    "nomor" : 10,
+    "pertanyaan" : "Pernah mengurus perkara melalui Hakim/Panitera/Staff pengadilan diluar persidangan? "
+  }
+  
+]

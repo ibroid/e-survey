@@ -1,0 +1,38 @@
+[
+  {
+    "nomor" : 1,
+    "pertanyaan" : "Bagaimana pendapat saudara tentang kesesuaian persyaratan pelayanan dengan jenis pelayanannya ?"
+  },
+  {
+    "nomor" : 2,
+    "pertanyaan" : "Bagaimana pemahaman saudara tentang kemudahan prosedur pelayanan di unit ini ?"
+  },
+  {
+    "nomor" : 3,
+    "pertanyaan" : "Bagaimana pendapat saudara tentang kecepatan waktu dalam memberikan pelayanan ?"
+  },
+  {
+    "nomor" : 4,
+    "pertanyaan" : "Bagaimana pendapat saudara tentang kewajaran biaya /tarif dalam pelayanan ?"
+  },
+  {
+    "nomor" : 5,
+    "pertanyaan" : "Bagaimana pendapat saudara tentang kesesuaian produk pelayanan antara yang tercantum dalam standar pelayanan dengan hasil yang diberikan"
+  },
+  {
+    "nomor" : 6,
+    "pertanyaan" : "Bagaimana pendapat saudara tentang kompetensi /kemampuan petugas dalam pelayanan."
+  },
+  {
+    "nomor" : 7,
+    "pertanyaan": "Bagaimana pendapat saudara perilaku petugas dalam pelayanan terkait dengan kesopanan dan keramahan?"
+  },
+  {
+    "nomor" : 8,
+    "pertanyaan": "Bagaimana pendapat saudara tentang kualitas sarana dan prasarana?"
+  },
+  {
+    "nomor" : 9,
+    "pertanyaan" : "Bagaimana pendapat saudara tentang penanganan pengaduan pengguna layanan?"
+  }
+]

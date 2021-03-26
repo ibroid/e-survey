@@ -1,0 +1,58 @@
+<h4>Silahkan Masukan Data Diri Anda</h4>
+<form id="form-data-diri" action="/save_data_diri" method="POST">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Nama Lengkap</label>
+        <div class="col-sm-9">
+          <input type="text" id="nama" required class="form-control" data-parsley-pattern="[a-zA-Z ]+$" data-parsley-trigger="blur">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Umur</label>
+        <div class="col-sm-9">
+          <input type="text" id="umur" required class="form-control" data-parsley-type="number" data-parsley-trigger="blur">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Jenis Kelamin</label>
+        <div class="col-sm-9">
+          <select id="jenis_kelamin" required class="form-control">
+            <option>Perempuan</option>
+            <option>Laki-Laki</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Kota Asal</label>
+        <div class="col-sm-9">
+          <input type="text" id="asal" data-parsley-pattern="[a-zA-Z ]+$" data-parsley-trigger="blur" list="kota" required class="form-control">
+          <datalist id="kota">
+            <option>Bandung</option>
+            <option>Jakarta</option>
+            <option>Palembang</option>
+            <option>Makasar</option>
+            <option>Medan</option>
+            <option>Denpasar</option>
+            <option>Jogjakarta</option>
+            <option>Surabaya</option>
+            <option>Semarang</option>
+          </datalist>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-success btn-lg">Simpan dan Lanjutkan</button>
+</form>
